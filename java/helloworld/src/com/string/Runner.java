@@ -54,4 +54,8 @@ public class Runner {
 			}
 		}
 	}
+
+	public static void stringCompare(String stringOne, String stringTwo) {
+
+	}
 }

@@ -1,12 +1,15 @@
 package com.clas;
 
 public class Person {
-	public String name; //
-	public int age; //
-	public String gender; //
+	public String name;
+	public int age;
+	public String gender;
 	public boolean isBreathing;
-	public int walkSpeed = 30; // in feet
-//Constructor
+	public int walkSpeed = 30;
+
+	public Person(String name) {
+		this.name = name;
+	}
 
 	public Person(String name, int age, String gender) {
 		this.name = name;
